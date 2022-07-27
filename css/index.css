@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", "Fredoka";
+}
+
+
+/* =================== */
+/* ======Navbar======= */
+/* =================== */
+
+nav {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* margin: 20px 0px; */
+    padding: 20px 0px;
+}
+
+.nav-items {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 141px;
+}
+
+.nav-item {
+    /* border: 2px solid black; */
+    margin: 5px 25px;
+    padding: 5px 30px;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    font-family: "Fredoka";
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: #FE5E35;
+}
+
+div>.nav-item.active-item{
+    font-family: "Fredoka";
+    height: 2px;
+    width: 20px;
+    color: #FE5E35;
+}
+
+
+
+nav>img:nth-child(1) {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 60px;
+    width: 250px;
+    cursor: pointer;
+    height: 45px;
+}
+
+
+/* ===================== */
+/* =====Hero section==== */
+/* ====================== */
+
+
+.intro-section {
+    /* border: 2px solid salmon; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* all left side code */
+/* div.left-section {
+    border: 2px solid yellow;
+} */
+
+
+div>h3 {
+    /* border:2px solid red; */
+    display: inline-block;
+    margin: 10px;
+    margin-left: 65px;
+    margin-top: 40px;
+    height: 2px;
+    font-size: 30px;
+    font-family: "Poppins";
+    position: relative;
+    top: 2%;
+}
+
+/*  two circle here*/
+div>h3>img {
+    /* border:2px solid red; */
+    width: 40px;
+}
+
+.left-section>h1 {
+    /* border: 2px solid red; */
+    margin: 10px;
+    margin-left: 65px;
+    margin-top: 15px;
+    padding: 5px 0px;
+    font-size: 55px;
+    font-family: Fredoka One;
+}
+
+.sub-headlines {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 8px;
+    margin-left: 145px;
+
+}
+here 
+.sub-headline {
+    /* border: 2px solid maroon; */
+    margin: 5px 2px;
+    font-family: "Poppins";
+    font-size: 20px;
+}
+
+
+.sub-headline img[src="./images/plus.svg"] {
+    /* border: 2px solid red; */
+    background-color: #FE5E35;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    position: relative;
+    top: 13px;
+    margin-right: 18px;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+
+
+.text {
+    /* border: 2px solid blue; */
+    margin: 10px;
+    margin-left: 50px;
+    font-family: "Poppins";
+    opacity: 0.9;
+    height: 55px;
+    padding: 10px;
+    width: 500px;
+    font-size: 10px;
+}
+
+.action-btns {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin: 10px;
+    margin-left: 50px; 
+}
+
+.action-btn {
+    border: #FE5E35;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 45px;
+    width: 140px;
+    background-color: #FE5E35;
+    color: #fff;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+/*  All Right part */
+
+/* .right-section {
+    border: 2px solid #FE5E35;
+} */
+
+.headphone-div {
+    /* border: 2px solid blue; */
+    display: inline-flex;
+}
+
+div img[src="./images/headphones.jpg"] {
+    height: 370px;
+    width: 385px;
+    position: absolute;
+    right: 250px;
+    /* border: 2px solid red; */
+    /* transform: rotate(9deg); */
+}
+
+div img[src="./images/discount.svg"] {
+    height: 165px;
+    width: 130px;
+    position: absolute;
+    top: 48%;
+    z-index: 1;
+    right: 560px;
+    /* box-shadow: 0 01px 0px 0 rgb(0, 0, 0), 0 0px 0px 0 rgba(0, 0, 0, 0.19); */
+    
+}
+
+.discount-content {
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 57%;
+    right: 575px;
+    z-index: 1;
+    color: #fff;
+}
+
+.discount-content>h4 {
+    font-size: 12px;
+    margin: -4px 16px -6px;
+}
+
+.discount-content>h1 {
+    font-size: 35px;
+    font-family: Fredoka One;
+    margin: 0px;
+
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* border: 2px solid red; */
+    right: 385px;
+    top: 77%;
+}
+
+.dot {
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 5px 10px;
+    justify-content: space-between;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.yellow-dot{
+    background-color: yellow;
+}
+
+.tomato-dot{
+    background-color: #FE5E35;
+}
+
+.black-dot{
+    background-color: black;
+}
+
+.right-section>button.action-btn {
+    position: absolute;
+    /* border: 2px solid red; */
+    bottom: 55px;
+    right: 360px;
+    cursor: pointer;
+}

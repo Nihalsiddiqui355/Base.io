@@ -3,7 +3,7 @@
 
 - By Nihal Siddiqui
 
-> live priview [Link]()
+> live priview [Link](https://fullstack-js-project-07.netlify.app/)
 
 > Project Preview
 
